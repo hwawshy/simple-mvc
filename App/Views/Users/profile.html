@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ username }}{% endblock %}
+
+{% block body %}
+
+   <h1>{{ username }}</h1>
+   <p>Welcome to the profile of {{ username }}!</p>
+   <p>You can contact {{ username }} at: {{ email }}</p>
+
+{% endblock %}
